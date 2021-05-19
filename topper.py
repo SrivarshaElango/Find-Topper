@@ -72,3 +72,5 @@ df = df.sort_values(by='Average', ascending=False, ignore_index=True)
 print('Best students in the class : ')
 for i in range(3) :
 	print(df['Name'][i])
+	
+#Time Complexity of algorithm : O(mn) where m is no. of students and n is no. of subjects 
